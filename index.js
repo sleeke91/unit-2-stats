@@ -11,7 +11,13 @@ function getLength(numbers) {
  * @returns {number} the sum of the numbers
  */
 function getSum(numbers) {
-  // TODO
+  //for loop
+  let sum = 0
+  for(let i=0; i<numbers.length;i++){
+    sum = sum + numbers[i]
+    //add each number of the array to the sum
+  }
+  return sum
 }
 
 /**
@@ -20,6 +26,8 @@ function getSum(numbers) {
  */
 function getMean(numbers) {
   // TODO
+  // sum/length
+  //getsum(numbers)/getLength(numbers)
 }
 
 /**
@@ -44,6 +52,8 @@ function getMax(numbers) {
  */
 function getRange(numbers) {
   // TODO
+  //max-min
+  //getmax(numbers)-getmin(numbers)
 }
 
 /**
@@ -52,6 +62,13 @@ function getRange(numbers) {
  */
 function getEvens(numbers) {
   // TODO
+  const evenNums = []
+  //%
+  for(let i=0;i<numbers.length;i++){
+    console.log(numbers[i]$2===0)
+  }
+  //create a for loop that puts even numbers in a new array
+  return evenNums
 }
 
 /**
