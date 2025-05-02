@@ -1,11 +1,10 @@
+
 /**
  * @param {number[]} numbers an array of integers
  * @returns {number} the length of the array
  */
 function getLength(numbers) {
-let i = 0
-for (let i = 0; i<numbers.length;i++){
-}
+  return numbers.length;
 }
 
 /**
