@@ -3,7 +3,9 @@
  * @returns {number} the length of the array
  */
 function getLength(numbers) {
-  // TODO
+let i = 0
+for (let i = 0; i<numbers.length;i++){
+}
 }
 
 /**
@@ -62,13 +64,7 @@ function getRange(numbers) {
  */
 function getEvens(numbers) {
   // TODO
-  const evenNums = []
-  //%
-  for(let i=0;i<numbers.length;i++){
-    console.log(numbers[i]$2===0)
-  }
-  //create a for loop that puts even numbers in a new array
-  return evenNums
+
 }
 
 /**
